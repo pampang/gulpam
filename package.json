@@ -1,0 +1,46 @@
+{
+  "name": "gulpam",
+  "version": "0.0.2",
+  "description": "gulp workaround",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pampang/gulpam.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "dependencies": {
+    "browser-sync": "2.11.0",
+    "del": "2.2.2",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-babel": "6.1.2",
+    "gulp-cached": "1.1.0",
+    "gulp-changed": "1.3.0",
+    "gulp-clean-css": "2.2.2",
+    "gulp-fontmin": "0.7.3",
+    "gulp-if": "2.0.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-inline-source": "3.0.0",
+    "gulp-plumber": "1.0.1",
+    "gulp-remember": "0.3.0",
+    "gulp-ruby-sass": "2.0.6",
+    "gulp-sourcemaps": "2.6.0",
+    "gulp-uglify": "2.0.0",
+    "npm-which": "^3.0.1",
+    "require-dir": "0.3.1",
+    "yargs": "3.32.0"
+  },
+  "author": "PAMPANG",
+  "license": "ISC",
+  "bin": {
+    "gulpam": "bin/gulpam.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pampang/gulpam/issues"
+  },
+  "homepage": "https://github.com/pampang/gulpam#readme"
+}
