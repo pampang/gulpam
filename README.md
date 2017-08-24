@@ -7,7 +7,7 @@
 First, install package:
 
 ```
-npm i gulpam@latest -D
+npm i gulp gulpam@latest -D
 ```
 
 Then, change your project's `gulpfile.js` into:
