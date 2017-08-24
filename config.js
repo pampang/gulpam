@@ -81,16 +81,16 @@ module.exports = {
   },
   minify: {
     js: {
-      src: 'app/public./**/*.js',
+      src: path.resolve(destDir, './**/*.js'),
       dest: destDir
     },
     css: {
-      src: 'app/public./**/*.css',
+      src: path.resolve(destDir, './**/*.css'),
       dest: destDir
     }
   },
   inlinesource: {
-    src: 'app/public./**/*.html',
+    src: path.resolve(destDir, './**/*.html'),
     dest: destDir
   }
 };
