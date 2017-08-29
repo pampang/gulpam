@@ -32,6 +32,7 @@
     "gulp-uglify": "2.0.0",
     "npm-which": "^3.0.1",
     "require-dir": "0.3.1",
+    "run-sequence": "^2.1.0",
     "yargs": "3.32.0"
   },
   "author": "PAMPANG",
