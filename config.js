@@ -1,6 +1,6 @@
 var path = require('path');
 var process = require('process');
-var customConfig = require(path.resolve(process.env.PWD, 'gulpam.config.json'));
+var customConfig = require(path.resolve(process.cwd(), 'gulpam.config.json'));
 
 // https://segmentfault.com/q/1010000002763411
 // 如果我们使用了“./”来引导路径，会导致gulp无法监听新建的文件。
@@ -10,6 +10,10 @@ var srcDir = customConfig.srcDir || 'app/src';
 var destDir = customConfig.destDir || 'app/public';
 
 module.exports = {
+  hash: {
+    src: path.resolve(destDir, './**/*.html'),
+    dest: destDir,
+  },
   sass: {
     src: path.resolve(srcDir, './**/css/*.*'),
     dest: destDir,

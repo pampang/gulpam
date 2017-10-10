@@ -1,6 +1,6 @@
 {
   "name": "gulpam",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "gulp workaround",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "gulp-remember": "0.3.0",
     "gulp-ruby-sass": "2.0.6",
     "gulp-sourcemaps": "2.6.0",
+    "gulp-rev-timestamp": "0.0.1",
     "gulp-uglify": "2.0.0",
     "npm-which": "^3.0.1",
     "require-dir": "0.3.1",
