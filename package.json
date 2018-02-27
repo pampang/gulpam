@@ -34,7 +34,8 @@
     "npm-which": "^3.0.1",
     "require-dir": "0.3.2",
     "run-sequence": "^2.1.0",
-    "yargs": "3.32.0"
+    "yargs": "3.32.0",
+    "webpack": "3.10.0"
   },
   "author": "PAMPANG",
   "license": "ISC",
