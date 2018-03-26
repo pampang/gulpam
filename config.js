@@ -10,6 +10,8 @@ var srcDir = customConfig.srcDir || 'app/src';
 var destDir = customConfig.destDir || 'app/public';
 
 module.exports = {
+  srcDir,
+  destDir,
   hash: {
     src: path.resolve(destDir, './**/*.html'),
     dest: destDir,
