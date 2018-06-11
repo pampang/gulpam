@@ -2,7 +2,7 @@
  * @Author: PAMPANG
  * @Date: 2016-02-16 10:40:23
  * @Last Modified by: PAMPANG
- * @Last Modified time: 2018-03-26 18:17:44
+ * @Last Modified time: 2018-05-28 17:25:06
  */
 const gulp = require('gulp');
 const gulpif = require('gulp-if');
@@ -25,15 +25,7 @@ gulp.task('js', () => {
         this.emit('end');
       },
     }))
-    .pipe(babel({
-      presets: [
-        ['env', {
-          targets: {
-            browsers: ['last 10000 versions', 'safari 6'],
-          },
-        }],
-      ],
-    }))
+    .pipe(babel())
     .pipe(gulpif(!global.__DEV__, uglify()))
     .pipe(cache('js'))
     .pipe(gulpif(global.__DEV__, sourcemaps.write()))

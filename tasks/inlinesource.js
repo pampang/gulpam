@@ -2,7 +2,7 @@
  * @Author: PAMPANG
  * @Date: 2017-08-07 15:13:11
  * @Last Modified by: PAMPANG
- * @Last Modified time: 2018-03-26 17:39:16
+ * @Last Modified time: 2018-05-28 19:10:16
  */
 var gulp = require('gulp');
 var config = require('../config.js');
@@ -19,5 +19,5 @@ gulp.task('inlinesource', function(cb) {
       .pipe(gulp.dest(config.inlinesource.dest));
 
     cb();
-  }, 1500);
+  }, 3000);
 });
